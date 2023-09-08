@@ -1,0 +1,62 @@
+{
+	"id": "profilecard",
+	"label": "ProfileCard",
+	"format": "custom",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"box": {
+				"type": "Group",
+				"config": {
+					"label": "box",
+					"fields": {
+						"image": {
+							"type": "Image",
+							"config": {
+								"label": "image",
+								"constraint": {},
+								"thumbnails": []
+							}
+						},
+						"name": {
+							"type": "Text",
+							"config": {
+								"label": "name",
+								"placeholder": ""
+							}
+						},
+						"paragraph": {
+							"type": "StructuredText",
+							"config": {
+								"label": "paragraph",
+								"placeholder": "",
+								"allowTargetBlank": true,
+								"single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+							}
+						},
+						"link_github": {
+							"type": "Link",
+							"config": {
+								"label": "link github",
+								"placeholder": "",
+								"select": null
+							}
+						}
+					}
+				}
+			},
+			"slices": {
+				"type": "Slices",
+				"fieldset": "Slice Zone",
+				"config": {
+					"choices": {
+						"cards": {
+							"type": "SharedSlice"
+						}
+					}
+				}
+			}
+		}
+	}
+}
