@@ -1,7 +1,5 @@
 <main>
     <slot/>
-</main>
-
 
 <style>
 	main {
@@ -12,11 +10,11 @@
 	}
 
 	section {
-		width: 20em;
+		width: 30em;
 		height: fit-content;
 		margin: auto;
 		padding: 1em;
-		background-color: #d467274a;
+		background-color: #faf0e6;
 		border-radius: 1em;
 		opacity: 0;
 		z-index: 1;
@@ -38,4 +36,58 @@
 			opacity: 1;
 		}
 	}
+
+
+    p {
+		max-width: 30em;
+		margin-bottom: 1em;
+        
+	}
+
+    img {
+		width: 15em;
+		height: auto;
+		aspect-ratio: 1/1;
+		border-radius: 0.5em;
+	}
+
+
+button {
+  border: none;
+  color: #000;
+}
+button:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+button:hover {
+  color: #000;
+}
+
+button:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+button:active {
+  top: 2px;
+}
+
+
+
 </style>
+
+</main>
