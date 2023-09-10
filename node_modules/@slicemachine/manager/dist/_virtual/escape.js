@@ -1,0 +1,5 @@
+var _escape = {};
+export {
+  _escape as __exports
+};
+//# sourceMappingURL=escape.js.map
