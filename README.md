@@ -2,16 +2,25 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+
+  * [Beschrijving 📝](#beschrijving)
+  * [Gebruik 🖇](#gebruik)
+  * [Kenmerken 📌](#kenmerken)
+  * [Installatie 📲](#installatie)
+  * [Bronnen 📚](#bronnen)
+
 ## Beschrijving📝
 
+Met behulp van Svelte Kit en Prismic heb ik een profile card gemaakt om mijn contactgegevens en een link naar mijn GitHub-profiel te delen. Deze profile card biedt externe bezoekers de mogelijkheid om mijn werk eenvoudig terug te vinden en contact met mij op te nemen.
+
 ## Kenmerken📌
+* Tools: 🖥️ Visual Studio Code 🖥️ Vercel 🖥️ Figma
+
+* Gebruikte technieken: 💻 HTML 🎨 CSS 🛠 Sveltekit ⚙️ Prismic 🛠 Javascript
+
 
 ## Gebruik🖇
-
-
-
-
-
+IK heb een project ontwikkeld met SvelteKit, een framework, en Prismic, een headless CMS. In Prismic hebben ik de gegevens aangemaakt, die ik vervolgens met SvelteKit heb opgehaald en op mijn profile card heb weergegeven, verder heb ik de website gestyled met gebruik van CSS.
 
 
 ## Installatie ⚙️
