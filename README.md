@@ -2,7 +2,8 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-![Uploading Screenshot 2023-09-22 at 11.01.56.png…]()
+<img width="631" alt="Screenshot 2023-09-22 at 11 01 56" src="https://github.com/ArexanK/your-tribe-for-life-profile-card/assets/94745953/434605f1-5ad3-460d-8cfb-555ced6c2d91">
+
 
 
 
