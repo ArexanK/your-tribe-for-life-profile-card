@@ -2,6 +2,9 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+![Uploading Screenshot 2023-09-22 at 11.01.56.png…]()
+
+
 
   * [Beschrijving 📝](#beschrijving)
   * [Gebruik 🖇](#gebruik)
